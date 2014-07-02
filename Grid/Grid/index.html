@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="Scripts/jquery-2.1.1.js"></script>
+    <script src="Scripts/knockout-3.1.0.debug.js"></script>
+    <script src="Scripts/knockout.mapping-latest.debug.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.js"></script>
+    <title></title>
+</head>
+    <body>
+        <input value="Save" class="btn-lg" type="button" data-bind="click: Save" />
+        <div data-bind="quikgrid: thisGrid">
+        </div>
+        <!--    <div>
+                    <div class="pgControls">
+                        <label>Page Number:</label><br/>
+                        <input type="text" placeholder="Page Number" />
+                    </div>
+                    <div class="pgControls"><label>Page Size:</label><br/>
+                        <input type="text" placeholder="Results Per Page" />
+                    </div>
+                    <input type="button" value="<<<" />
+                    <input type="button" value=">>>" />
+                </div>-->
+        <!--<div class="colsShow"><label>check</label><input type="checkbox" /></div>-->
+        <div id="sel"></div>
+
+
+
+        <!-- <table>
+                 <thead>
+                     <tr>
+                         <th>First Name</th>
+                         <th>Last Name</th>
+                         <th>Job Title</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td>James</td>
+                         <td>Matman</td>
+                         <td>Chief Sandwich Eater</td>
+                     </tr>
+                     <tr>
+                         <td>The</td>
+                         <td>Tick</td>
+                         <td>Crimefighter Sorta</td>
+                     </tr>
+                 </tbody>
+             </table>-->
+    </body>
+    <script src="QuikGridBinding.js"></script>
+<script src="app.js"></script>
+</html>
